@@ -1,0 +1,533 @@
+{
+   "Formulario": [
+      {
+         "FomularioID": 1,
+         "Nome": "Passo 1",
+         "Descricao": "Identificação Pessoal"
+      },
+      {
+         "FomularioID": 2,
+         "Nome": "Passo 2",
+         "Descricao": ""
+      }
+   ],
+   "Campos": [
+      {
+         "CampoID": 1,
+         "FormularioID": 1,
+         "Label": "Nome",
+         "Tipo": "TEXT",
+         "OpcoesLista": null,
+         "ListaValor": null,
+         "ListaTexto": null,
+         "TamanhoLimite": 50,
+         "TamanhoDecimal": null,
+         "Obrigatorio": true,
+         "CampoPaiID": null,
+         "Placeholder": "Informe seu nome..."
+      },
+      {
+         "CampoID": 2,
+         "FormularioID": 1,
+         "Label": "Idade",
+         "Tipo": "INT",
+         "OpcoesLista": null,
+         "ListaValor": null,
+         "ListaTexto": null,
+         "TamanhoLimite": 2,
+         "TamanhoDecimal": null,
+         "Obrigatorio": true,
+         "CampoPaiID": null,
+         "Placeholder": "Informe sua idade..."
+      },
+      {
+         "CampoID": 3,
+         "FormularioID": 1,
+         "Label": "Sexo",
+         "Tipo": "SELECT",
+         "Placeholder": "Selecione",
+         "Enum": [           
+            {
+               "label": "Feminino",
+               "value": "Feminino"
+            },
+            {
+               "label": "Masculino",
+               "value": "Masculino"
+            },
+         ]
+      },
+      {
+         "CampoID": 4,
+         "FormularioID": 1,
+         "Label": "Esporte(s) Favorito(s)",
+         "Tipo": "SELECT",
+         "Placeholder": "Selecione",
+         "Enum": [
+            {
+               "value": 1,
+               "label": "Futebol"
+            },
+            {
+               "value": 2,
+               "label": "Basquete"
+            },
+            {
+               "value": 3,
+               "label": "Volei"
+            },
+            {
+               "value": 4,
+               "label": "Natação"
+            },
+            {
+               "value": 5,
+               "label": "Corrida"
+            },
+            {
+               "value": 6,
+               "label": "Outro"
+            }
+         ]
+      },     
+      {
+         "CampoID": 6,
+         "FormularioID": 1,
+         "Label": "Pratica algum destes regularmente?",
+         "Tipo": "BIT",
+         "OpcoesLista": null,
+         "ListaValor": null,
+         "ListaTexto": null,
+         "TamanhoDecimal": null,
+         "TamanhoLimite": null,
+         "Obrigatorio": true,
+         "CampoPaiID": null
+      },
+      {
+         "CampoID": 7,
+         "FormularioID": 2,
+         "Label": "Peso",
+         "Tipo": "DECIMAL",
+         "TamanhoLimite": 6,
+         "TamanhoDecimal": 2,
+         "Obrigatorio": true,
+         "CampoPaiID": null
+      },
+      {
+         "CampoID": 8,
+         "FormularioID": 2,
+         "Label": "Altura",
+         "Tipo": "DECIMAL",
+         "OpcoesLista": null,
+         "ListaValor": null,
+         "ListaTexto": null,
+         "TamanhoLimite": 6,
+         "TamanhoDecimal": 2,
+         "Obrigatorio": true,
+         "CampoPaiID": null
+      }
+   ]
+   // "UF": [
+   //    {
+   //       "UFID": 50,
+   //       "Descricao": "Mato Grosso do Sul"
+   //    }
+   // ],
+   // "Municipio": [
+   //    {
+   //       "MunicipioID": 5000203,
+   //       "Descricao": "ÁGUA CLARA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000252,
+   //       "Descricao": "ALCINÓPOLIS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000609,
+   //       "Descricao": "AMAMBAI",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000708,
+   //       "Descricao": "ANASTÁCIO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000807,
+   //       "Descricao": "ANAURILÂNDIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000856,
+   //       "Descricao": "ANGÉLICA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5000906,
+   //       "Descricao": "ANTÔNIO JOÃO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5001003,
+   //       "Descricao": "APARECIDA DO TABOADO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5001102,
+   //       "Descricao": "AQUIDAUANA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5001243,
+   //       "Descricao": "ARAL MOREIRA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5001508,
+   //       "Descricao": "BANDEIRANTES",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5001904,
+   //       "Descricao": "BATAGUASSU",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002001,
+   //       "Descricao": "BATAYPORÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002100,
+   //       "Descricao": "BELA VISTA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002159,
+   //       "Descricao": "BODOQUENA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002209,
+   //       "Descricao": "BONITO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002308,
+   //       "Descricao": "BRASILÂNDIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002407,
+   //       "Descricao": "CAARAPÓ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002605,
+   //       "Descricao": "CAMAPUÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002704,
+   //       "Descricao": "CAMPO GRANDE",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002803,
+   //       "Descricao": "CARACOL",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002902,
+   //       "Descricao": "CASSILÂNDIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5002951,
+   //       "Descricao": "CHAPADÃO DO SUL",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003108,
+   //       "Descricao": "CORGUINHO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003157,
+   //       "Descricao": "CORONEL SAPUCAIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003207,
+   //       "Descricao": "CORUMBÁ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003256,
+   //       "Descricao": "COSTA RICA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003306,
+   //       "Descricao": "COXIM",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003454,
+   //       "Descricao": "DEODÁPOLIS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003488,
+   //       "Descricao": "DOIS IRMÃOS DO BURITI",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003504,
+   //       "Descricao": "DOURADINA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003702,
+   //       "Descricao": "DOURADOS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003751,
+   //       "Descricao": "ELDORADO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003801,
+   //       "Descricao": "FÁTIMA DO SUL",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5003900,
+   //       "Descricao": "FIGUEIRÃO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004007,
+   //       "Descricao": "GLÓRIA DE DOURADOS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004106,
+   //       "Descricao": "GUIA LOPES DA LAGUNA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004304,
+   //       "Descricao": "IGUATEMI",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004403,
+   //       "Descricao": "INOCÊNCIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004502,
+   //       "Descricao": "ITAPORÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004601,
+   //       "Descricao": "ITAQUIRAÍ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004700,
+   //       "Descricao": "IVINHEMA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004809,
+   //       "Descricao": "JAPORÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5004908,
+   //       "Descricao": "JARAGUARI",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005004,
+   //       "Descricao": "JARDIM",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005103,
+   //       "Descricao": "JATEÍ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005152,
+   //       "Descricao": "JUTI",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005202,
+   //       "Descricao": "LADÁRIO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005251,
+   //       "Descricao": "LAGUNA CARAPÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005400,
+   //       "Descricao": "MARACAJU",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005608,
+   //       "Descricao": "MIRANDA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005681,
+   //       "Descricao": "MUNDO NOVO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005707,
+   //       "Descricao": "NAVIRAÍ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5005806,
+   //       "Descricao": "NIOAQUE",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006002,
+   //       "Descricao": "NOVA ALVORADA DO SUL",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006200,
+   //       "Descricao": "NOVA ANDRADINA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006259,
+   //       "Descricao": "NOVO HORIZONTE DO SUL",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006275,
+   //       "Descricao": "PARAÍSO DAS ÁGUAS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006309,
+   //       "Descricao": "PARANAÍBA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006358,
+   //       "Descricao": "PARANHOS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006408,
+   //       "Descricao": "PEDRO GOMES",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006606,
+   //       "Descricao": "PONTA PORÃ",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5006903,
+   //       "Descricao": "PORTO MURTINHO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007109,
+   //       "Descricao": "RIBAS DO RIO PARDO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007208,
+   //       "Descricao": "RIO BRILHANTE",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007307,
+   //       "Descricao": "RIO NEGRO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007406,
+   //       "Descricao": "RIO VERDE DE MATO GROSSO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007505,
+   //       "Descricao": "ROCHEDO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007554,
+   //       "Descricao": "SANTA RITA DO PARDO",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007695,
+   //       "Descricao": "SÃO GABRIEL DO OESTE",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007802,
+   //       "Descricao": "SELVÍRIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007703,
+   //       "Descricao": "SETE QUEDAS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007901,
+   //       "Descricao": "SIDROLÂNDIA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007935,
+   //       "Descricao": "SONORA",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007950,
+   //       "Descricao": "TACURU",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5007976,
+   //       "Descricao": "TAQUARUSSU",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5008008,
+   //       "Descricao": "TERENOS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5008305,
+   //       "Descricao": "TRÊS LAGOAS",
+   //       "UFID": 50
+   //    },
+   //    {
+   //       "MunicipioID": 5008404,
+   //       "Descricao": "VICENTINA",
+   //       "UFID": 50
+   //    }
+   //]
+}
